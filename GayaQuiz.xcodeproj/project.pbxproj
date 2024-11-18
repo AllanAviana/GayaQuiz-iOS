@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B8B1A4D12CEAFDF9005EE158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B1A4B82CEAFDF8005EE158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B1A4BF2CEAFDF8005EE158;
+			remoteInfo = GayaQuiz;
+		};
+		B8B1A4DB2CEAFDF9005EE158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B1A4B82CEAFDF8005EE158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B1A4BF2CEAFDF8005EE158;
+			remoteInfo = GayaQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8B1A4C02CEAFDF8005EE158 /* GayaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GayaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B1A4D02CEAFDF9005EE158 /* GayaQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GayaQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B1A4DA2CEAFDF9005EE158 /* GayaQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GayaQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B8B1A4C22CEAFDF8005EE158 /* GayaQuiz */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GayaQuiz;
+			sourceTree = "<group>";
+		};
+		B8B1A4D32CEAFDF9005EE158 /* GayaQuizTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GayaQuizTests;
+			sourceTree = "<group>";
+		};
+		B8B1A4DD2CEAFDF9005EE158 /* GayaQuizUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GayaQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B1A4BD2CEAFDF8005EE158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1A4CD2CEAFDF9005EE158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1A4D72CEAFDF9005EE158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B1A4B72CEAFDF8005EE158 = {
+			isa = PBXGroup;
+			children = (
+				B8B1A4C22CEAFDF8005EE158 /* GayaQuiz */,
+				B8B1A4D32CEAFDF9005EE158 /* GayaQuizTests */,
+				B8B1A4DD2CEAFDF9005EE158 /* GayaQuizUITests */,
+				B8B1A4C12CEAFDF8005EE158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B1A4C12CEAFDF8005EE158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B1A4C02CEAFDF8005EE158 /* GayaQuiz.app */,
+				B8B1A4D02CEAFDF9005EE158 /* GayaQuizTests.xctest */,
+				B8B1A4DA2CEAFDF9005EE158 /* GayaQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B1A4BF2CEAFDF8005EE158 /* GayaQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B1A4E42CEAFDF9005EE158 /* Build configuration list for PBXNativeTarget "GayaQuiz" */;
+			buildPhases = (
+				B8B1A4BC2CEAFDF8005EE158 /* Sources */,
+				B8B1A4BD2CEAFDF8005EE158 /* Frameworks */,
+				B8B1A4BE2CEAFDF8005EE158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B8B1A4C22CEAFDF8005EE158 /* GayaQuiz */,
+			);
+			name = GayaQuiz;
+			packageProductDependencies = (
+			);
+			productName = GayaQuiz;
+			productReference = B8B1A4C02CEAFDF8005EE158 /* GayaQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8B1A4CF2CEAFDF9005EE158 /* GayaQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B1A4E72CEAFDF9005EE158 /* Build configuration list for PBXNativeTarget "GayaQuizTests" */;
+			buildPhases = (
+				B8B1A4CC2CEAFDF9005EE158 /* Sources */,
+				B8B1A4CD2CEAFDF9005EE158 /* Frameworks */,
+				B8B1A4CE2CEAFDF9005EE158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B1A4D22CEAFDF9005EE158 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B8B1A4D32CEAFDF9005EE158 /* GayaQuizTests */,
+			);
+			name = GayaQuizTests;
+			packageProductDependencies = (
+			);
+			productName = GayaQuizTests;
+			productReference = B8B1A4D02CEAFDF9005EE158 /* GayaQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8B1A4D92CEAFDF9005EE158 /* GayaQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B1A4EA2CEAFDF9005EE158 /* Build configuration list for PBXNativeTarget "GayaQuizUITests" */;
+			buildPhases = (
+				B8B1A4D62CEAFDF9005EE158 /* Sources */,
+				B8B1A4D72CEAFDF9005EE158 /* Frameworks */,
+				B8B1A4D82CEAFDF9005EE158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B1A4DC2CEAFDF9005EE158 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B8B1A4DD2CEAFDF9005EE158 /* GayaQuizUITests */,
+			);
+			name = GayaQuizUITests;
+			packageProductDependencies = (
+			);
+			productName = GayaQuizUITests;
+			productReference = B8B1A4DA2CEAFDF9005EE158 /* GayaQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B1A4B82CEAFDF8005EE158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B8B1A4BF2CEAFDF8005EE158 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B8B1A4CF2CEAFDF9005EE158 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B8B1A4BF2CEAFDF8005EE158;
+					};
+					B8B1A4D92CEAFDF9005EE158 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B8B1A4BF2CEAFDF8005EE158;
+					};
+				};
+			};
+			buildConfigurationList = B8B1A4BB2CEAFDF8005EE158 /* Build configuration list for PBXProject "GayaQuiz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8B1A4B72CEAFDF8005EE158;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B8B1A4C12CEAFDF8005EE158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B1A4BF2CEAFDF8005EE158 /* GayaQuiz */,
+				B8B1A4CF2CEAFDF9005EE158 /* GayaQuizTests */,
+				B8B1A4D92CEAFDF9005EE158 /* GayaQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B1A4BE2CEAFDF8005EE158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1A4CE2CEAFDF9005EE158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1A4D82CEAFDF9005EE158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B1A4BC2CEAFDF8005EE158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1A4CC2CEAFDF9005EE158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B1A4D62CEAFDF9005EE158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B1A4D22CEAFDF9005EE158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B1A4BF2CEAFDF8005EE158 /* GayaQuiz */;
+			targetProxy = B8B1A4D12CEAFDF9005EE158 /* PBXContainerItemProxy */;
+		};
+		B8B1A4DC2CEAFDF9005EE158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B1A4BF2CEAFDF8005EE158 /* GayaQuiz */;
+			targetProxy = B8B1A4DB2CEAFDF9005EE158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B8B1A4E22CEAFDF9005EE158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8B1A4E32CEAFDF9005EE158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B1A4E52CEAFDF9005EE158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GayaQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = L3JTK2F3SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GayaQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8B1A4E62CEAFDF9005EE158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GayaQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = L3JTK2F3SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GayaQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8B1A4E82CEAFDF9005EE158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3JTK2F3SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GayaQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GayaQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GayaQuiz";
+			};
+			name = Debug;
+		};
+		B8B1A4E92CEAFDF9005EE158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3JTK2F3SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GayaQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GayaQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GayaQuiz";
+			};
+			name = Release;
+		};
+		B8B1A4EB2CEAFDF9005EE158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3JTK2F3SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GayaQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GayaQuiz;
+			};
+			name = Debug;
+		};
+		B8B1A4EC2CEAFDF9005EE158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3JTK2F3SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GayaQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GayaQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B1A4BB2CEAFDF8005EE158 /* Build configuration list for PBXProject "GayaQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B1A4E22CEAFDF9005EE158 /* Debug */,
+				B8B1A4E32CEAFDF9005EE158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B1A4E42CEAFDF9005EE158 /* Build configuration list for PBXNativeTarget "GayaQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B1A4E52CEAFDF9005EE158 /* Debug */,
+				B8B1A4E62CEAFDF9005EE158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B1A4E72CEAFDF9005EE158 /* Build configuration list for PBXNativeTarget "GayaQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B1A4E82CEAFDF9005EE158 /* Debug */,
+				B8B1A4E92CEAFDF9005EE158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B1A4EA2CEAFDF9005EE158 /* Build configuration list for PBXNativeTarget "GayaQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B1A4EB2CEAFDF9005EE158 /* Debug */,
+				B8B1A4EC2CEAFDF9005EE158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B1A4B82CEAFDF8005EE158 /* Project object */;
+}
