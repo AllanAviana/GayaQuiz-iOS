@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B8F62AB22CED7EA30086C3E9 /* Jua-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F62AB12CED7EA30086C3E9 /* Jua-Regular.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B8B1A4D12CEAFDF9005EE158 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		B8B1A4C02CEAFDF8005EE158 /* GayaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GayaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B1A4D02CEAFDF9005EE158 /* GayaQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GayaQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B1A4DA2CEAFDF9005EE158 /* GayaQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GayaQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F62AB12CED7EA30086C3E9 /* Jua-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jua-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B8F62AD32CED7ED90086C3E9 /* Exceptions for "GayaQuiz" folder in "GayaQuiz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B8B1A4BF2CEAFDF8005EE158 /* GayaQuiz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B8B1A4C22CEAFDF8005EE158 /* GayaQuiz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B8F62AD32CED7ED90086C3E9 /* Exceptions for "GayaQuiz" folder in "GayaQuiz" target */,
+			);
 			path = GayaQuiz;
 			sourceTree = "<group>";
 		};
@@ -79,6 +97,7 @@
 				B8B1A4D32CEAFDF9005EE158 /* GayaQuizTests */,
 				B8B1A4DD2CEAFDF9005EE158 /* GayaQuizUITests */,
 				B8B1A4C12CEAFDF8005EE158 /* Products */,
+				B8F62AB12CED7EA30086C3E9 /* Jua-Regular.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F62AB22CED7EA30086C3E9 /* Jua-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +419,8 @@
 				DEVELOPMENT_TEAM = L3JTK2F3SR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GayaQuiz/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +450,8 @@
 				DEVELOPMENT_TEAM = L3JTK2F3SR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GayaQuiz/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

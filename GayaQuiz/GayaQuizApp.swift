@@ -11,7 +11,8 @@ import SwiftUI
 struct GayaQuizApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(ViewModel())
         }
     }
 }
