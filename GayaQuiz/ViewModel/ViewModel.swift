@@ -48,7 +48,7 @@ class ViewModel: ObservableObject {
     
     
 
-    func startGame() {
+    func startGame(){
         
         image()
         
